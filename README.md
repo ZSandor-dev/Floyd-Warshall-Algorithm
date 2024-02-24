@@ -15,7 +15,7 @@ for k = 0 to n-1
 for i = 0 to n-1
 for j = 0 to n-1
 
-Distance[i,j] = min(dist[i,j],dist[i,k] + dist[k,j]
+Distance[i,j] = min(distance[i,j], distance[i,k] + distance[k,j])
 
 where i = start node, j = end node, k = intermediate node.
 
