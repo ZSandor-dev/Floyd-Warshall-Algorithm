@@ -20,9 +20,9 @@ This project uses the imperative version of the Floyd Warshall Algorithm and rew
 The code works with the following input graph matrix:
 
 **input graph** = [[0, 7, INF, 8],
-                * [INF, 0, 5, INF],
-                * [INF, INF, 0, 2],
-                * [INF, INF, INF, 0]]
+                  [INF, 0, 5, INF],
+                  [INF, INF, 0, 2],
+                  [INF, INF, INF, 0]]
 
 
 **How to run the code?**
@@ -40,7 +40,7 @@ To run the recursive version of the code, change directory to Source code on you
 
 The solution graph will be printed in your terminal. It will be as follows:
 
-**solution graph** = [[0, 7, 12, 8],
-             *      [INF, 0, 5, 7],
-             *      [INF, INF, 0, 2],
-             *      [INF, INF, INF, 0]]
+**output graph** = [[0, 7, 12, 8],
+                   [INF, 0, 5, 7],
+                   [INF, INF, 0, 2],
+                   [INF, INF, INF, 0]]
