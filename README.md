@@ -10,11 +10,14 @@ input graph = [[0, 7, INF, 8],
                [INF, INF, INF, 0]]
 
 The Pseudo-Code for Floyd Warshall algorithm is as follows:
+
 for k = 0 to n-1
 for i = 0 to n-1
 for j = 0 to n-1
+
 Distance[i,j] = min(dist[i,j],dist[i,k] + dist[k,j]
-where i = tart node, j = end node, k = intermediate node.
+
+where i = start node, j = end node, k = intermediate node.
 
 The solution graph is as follows:
 output graph = [[0, 7, 12, 8],
