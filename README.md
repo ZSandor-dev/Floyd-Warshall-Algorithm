@@ -5,9 +5,9 @@ and efficiently solves complex all-pairs shortest path problems.
 
 **The Pseudo-Code for Floyd Warshall algorithm is as follows:**
 
-for k = 0 to n-1
-for i = 0 to n-1
-for j = 0 to n-1
+- for k = 0 to n-1
+- for i = 0 to n-1
+- for j = 0 to n-1
 
 Distance[i,j] = min(distance[i,j], distance[i,k] + distance[k,j])
 
