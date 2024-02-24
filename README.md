@@ -22,7 +22,7 @@ input graph = [[0, 7, INF, 8],
                [INF, INF, INF, 0]]
 
 
-How to run the code?
+**How to run the code?**
 
 Before you run the source code, install the requirements listed in requirements.txt. 
 Use the following command in your shell: pip install -r requirements.txt
