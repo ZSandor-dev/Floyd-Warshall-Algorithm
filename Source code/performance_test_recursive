@@ -1,20 +1,26 @@
 import timeit
 from floyd_recursive import floydWarshall,recursive_floydWarshall,V
+from floyd_imperative_website import floydWarshallImperative
 
-def performance_test():
-
-    INF = 99999
+INF = 99999
    
-    graph = [[0, 7, INF, 8],
-                [INF, 0, 5, INF],
-                [INF, INF, 0, 2],
-                [INF, INF, INF, 0]]
-     
+graph = [[0, 7, INF, 8],
+            [INF, 0, 5, INF],
+            [INF, INF, 0, 2],
+            [INF, INF, INF, 0]]
+
+def performance_test():  
     floydWarshall(graph)
 
-   
+
+def performance_test_imperative():
+    floydWarshall(graph) 
+
+
+#performance_test()
 
 execution_time = timeit.timeit(performance_test, number=1)
+print(f"Execution time recursive: {execution_time:.6f} seconds")
 
-performance_test()
-print(execution_time)
+execution_time = timeit.timeit(performance_test_imperative, number=1)
+print(f"Execution time imperative: {execution_time:.6f} seconds")
