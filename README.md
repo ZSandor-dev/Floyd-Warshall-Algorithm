@@ -31,13 +31,12 @@ The project uses Visual Studio Code, conda environment, and GitHub as source con
 The project documents can be opened in Visual Studio Code from GitHub account https://github.com/ZSandor-dev/Floyd-Warshall-Algorithm.git.
 
 The folder 'Source code' contains five codes:
-1. floyd_imperative_pdf, which is the imperative version provided by the university;
+1. floyd_imperative_pdf, which is the imperative version provided by the university
 2. floyd_imperative_website, which is the imperative version provided by Geeksforgeeks (available at:
-   https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/).
-3. floyd_recursive, which is the recursive version of the code.
-4. performance_test_recursive
-5. performance_test_imperative_website
-6. unittest_floyd_warshall
+   https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/)
+3. floyd_recursive, which is the recursive version of the code
+4. performance_tests
+5. unittest_floyd_warshall
 
 The solution graph will be as follows:
 
