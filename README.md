@@ -26,6 +26,8 @@ The code works with the following input graph matrix:
 
 
 **How to run the code?**
+The project uses Visual Studio Code as IDE and GitHub as source control.
+The project documents can be opened from Visual Studio Code from GitHub account  
 
 The folder 'Source code' contains three codes:
 1. floyd_imperative_pdf, which is the imperative version provided by the university;
