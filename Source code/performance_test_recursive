@@ -1,5 +1,5 @@
 import timeit
-from recursive_floyd_warshall_2 import floydWarshall,recursive_floydWarshall,V
+from floyd_recursive import floydWarshall,recursive_floydWarshall,V
 
 def performance_test():
 
