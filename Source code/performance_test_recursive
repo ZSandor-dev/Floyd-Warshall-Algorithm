@@ -1,22 +1,20 @@
 import timeit
-
-from floyd_recursive import floydWarshall,recursive_floydWarshall,V
+from recursive_floyd_warshall_2 import floydWarshall,recursive_floydWarshall,V
 
 def performance_test():
 
-     self.INF = 99999
+    INF = 99999
    
-     self.graph = [[0, 7, self.INF, 8],
-                [self.INF, 0, 5, self.INF],
-                [self.INF, self.INF, 0, 2],
-                [self.INF, self.INF, self.INF, 0]]
+    graph = [[0, 7, INF, 8],
+                [INF, 0, 5, INF],
+                [INF, INF, 0, 2],
+                [INF, INF, INF, 0]]
      
-     def test_recursive_FloydWarshall():
-        floydWarshall(self.graph)
+    floydWarshall(graph)
 
-        execution_time = timeit.timeit(self.test_recursive_FloydWarshall, number=1)
+   
 
-        print(execution_time)
+execution_time = timeit.timeit(performance_test, number=1)
 
-if __name__ == '__main__':
-    unittest.main()
+performance_test()
+print(execution_time)
