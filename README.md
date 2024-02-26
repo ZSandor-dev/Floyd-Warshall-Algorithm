@@ -26,7 +26,8 @@ The code works with the following input graph matrix:
 
 
 **How to run the code?**
-The project uses Visual Studio Code as IDE and GitHub as source control.
+
+The project uses Visual Studio Code and GitHub as source control.
 The project documents can be opened from Visual Studio Code from GitHub account https://github.com/ZSandor-dev/Floyd-Warshall-Algorithm.git.
 
 The folder 'Source code' contains five codes:
