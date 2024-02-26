@@ -12,7 +12,7 @@ INF = 99999
 # via Floyd Warshall Algorithm
  
  
-def floydWarshall(graph):
+def floydWarshallImperative(graph):
     """ dist[][] will be the output 
        matrix that will finally
         have the shortest distances 
@@ -24,15 +24,11 @@ def floydWarshall(graph):
     are based on shortest paths considering no 
     intermediate vertices """
 
-    print(graph)
+   
     
     #dist = list(map(lambda i: list(map(lambda j: j, i)), graph))
 
     dist = graph
-
-    print(dist)
-
-    print("v" ,V)
  
     """ Add all vertices one by one 
     to the set of intermediate
@@ -64,7 +60,7 @@ def floydWarshall(graph):
                 dist[i][j] = min(dist[i][j],dist[i][k] + dist[k][j])
                
        
-        printSolution(dist)
+    printSolution(dist)
  
  
 # A utility function to print the solution
@@ -95,7 +91,7 @@ def printSolution(dist):
             if j == V-1:
                 print()
  
- 
+
 # Driver's code
 if __name__ == "__main__":
     """
@@ -118,8 +114,8 @@ if __name__ == "__main__":
     
     graph = [[0, 5, INF, 10],
              [INF, 0, 3, INF],
-             [INF, INF, 0,   1],
+             [INF, INF, 0, 1],
              [INF, INF, INF, 0]
             ]
     # Function call
-    floydWarshall(graph)
+    floydWarshallImperative(graph)
