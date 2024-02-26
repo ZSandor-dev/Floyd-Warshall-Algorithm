@@ -27,15 +27,18 @@ The code works with the following input graph matrix:
 
 **How to run the code?**
 The project uses Visual Studio Code as IDE and GitHub as source control.
-The project documents can be opened from Visual Studio Code from GitHub account  
+The project documents can be opened from Visual Studio Code from GitHub account https://github.com/ZSandor-dev/Floyd-Warshall-Algorithm.git.
 
-The folder 'Source code' contains three codes:
+The folder 'Source code' contains five codes:
 1. floyd_imperative_pdf, which is the imperative version provided by the university;
 2. floyd_imperative_website, which is the imperative version provided by Geeksforgeeks (available at:
    https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/).
 3. floyd_recursive, which is the recursive version of the code.
+4. performance_test_recursive
+5. performance_test_imperative
+6. unittest_floyd_warshall
 
-The solution graph will be printed in your terminal. It will be as follows:
+The solution graph will be as follows:
 
 **output graph** = [[0, 7, 12, 8],
                    [INF, 0, 5, 7],
